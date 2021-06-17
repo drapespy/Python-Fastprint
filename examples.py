@@ -1,5 +1,6 @@
 from async_fastprint import async_pr
 from fastprint import pr
+import asyncio # lmao
 
 # Sync (Blocking)
 st = """This is
