@@ -41,5 +41,7 @@ its also
 async!
 """
 
-async def foo:
+async def foo():
     return async_pr(st)
+
+asyncio.loop.run_until_complete(foo())
