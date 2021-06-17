@@ -18,9 +18,12 @@ Async usage:
 
 ```python
 from async_fastprint import async_pr
+import asyncio
 
-async def foo:
+async def foo():
     return async_pr("This\nis\nasynchrounous!")
+    
+asyncio.loop.run_until_complete(foo())
 ```
 
 Check out example.py for more
